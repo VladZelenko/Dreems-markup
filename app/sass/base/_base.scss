@@ -27,3 +27,9 @@ h3.title {
 	font: 400 16px 'Montserrat', sans-serif;
 	text-transform: uppercase;
 }
+
+.flex-grid {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}

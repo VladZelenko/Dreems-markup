@@ -1,6 +1,6 @@
 .portfolio {
   width: 100%;
-  min-height: 1400px;
+  min-height: 1500px;
   padding-top: 100px;
 
   .content-box {
@@ -17,5 +17,14 @@
   .grid-expertise { max-width: 400px; }
   .margin-top { margin-top: 30px;}
   .first-header-margin { margin-top: 40px; }
+}
 
+.portfolio-container {
+  margin-top: 99px;
+  width: 100%;
+  min-height: 700px;
+  
+  .item-portfolio { width: 33%; }
+  img { width: 100%; }
+  
 }

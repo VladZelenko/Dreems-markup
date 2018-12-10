@@ -76,6 +76,21 @@ h3.title {
   font: 400 16px 'Montserrat', sans-serif;
   text-transform: uppercase; }
 
+.flex-grid {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
 .hero {
   width: 100%;
   min-height: 657px;
@@ -109,23 +124,10 @@ h3.title {
 .header-nav {
   max-width: 1024px;
   min-height: 100px;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -webkit-flex-flow: row nowrap;
-      -ms-flex-flow: row nowrap;
-          flex-flow: row nowrap;
   -webkit-box-align: center;
   -webkit-align-items: center;
       -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-      -ms-flex-pack: justify;
-          justify-content: space-between; }
+          align-items: center; }
 
 .overlay__content {
   display: -webkit-box;
@@ -158,18 +160,6 @@ h3.title {
   min-height: 535px;
   text-align: center;
   padding: 100px 0; }
-  .core-services .content-box {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-wrap: wrap;
-        -ms-flex-wrap: wrap;
-            flex-wrap: wrap;
-    -webkit-box-pack: justify;
-    -webkit-justify-content: space-between;
-        -ms-flex-pack: justify;
-            justify-content: space-between; }
   .core-services .item {
     width: 282px;
     color: #888; }
@@ -203,14 +193,7 @@ h3.title {
       -ms-flex-wrap: wrap;
           flex-wrap: wrap; }
   .grid-expertise .margin-top {
-    margin-top: 58px;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-wrap: wrap;
-        -ms-flex-wrap: wrap;
-            flex-wrap: wrap; }
+    margin-top: 58px; }
   .grid-expertise .icon {
     width: 46px;
     font-size: 30px; }
@@ -223,7 +206,7 @@ h3.title {
 
 .portfolio {
   width: 100%;
-  min-height: 1400px;
+  min-height: 1500px;
   padding-top: 100px; }
   .portfolio .content-box {
     max-width: 530px; }
@@ -238,6 +221,54 @@ h3.title {
     margin-top: 30px; }
   .portfolio .first-header-margin {
     margin-top: 40px; }
+
+.portfolio-container {
+  margin-top: 99px;
+  width: 100%;
+  min-height: 700px; }
+  .portfolio-container .item-portfolio {
+    width: 33%; }
+  .portfolio-container img {
+    width: 100%; }
+
+.about-us {
+  width: 100%;
+  min-height: 1631px;
+  padding: 102px 0 111px; }
+  .about-us h2 {
+    text-align: center; }
+
+.awesome-team {
+  width: 100%;
+  min-height: 800px;
+  padding: 100px 0 106px;
+  background-color: #F7F7F7;
+  text-align: center; }
+  .awesome-team .col-lg-4 {
+    margin-top: 82px; }
+  .awesome-team h3 {
+    margin: 26px 0 8px;
+    font: 700 16px 'Montserrat', sans-serif;
+    text-transform: capitalize; }
+  .awesome-team p {
+    max-width: 588px;
+    margin: 82px auto 0;
+    font-size: 16px;
+    line-height: 20px; }
+  .awesome-team .social-icons {
+    width: 140px;
+    margin: 14px auto 0;
+    font-size: 30px;
+    color: #111; }
+
+.footer {
+  width: 100%;
+  min-height: 640px;
+  background-color: #111111;
+  color: #FFF;
+  padding-top: 100px; }
+  .footer .col-lg-6 {
+    max-width: 460px; }
 
 @media only screen and (max-width: 930px) {
   .logo {
