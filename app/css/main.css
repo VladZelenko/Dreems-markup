@@ -221,6 +221,24 @@ h3.title {
   .grid-expertise p {
     line-height: 22px; }
 
+.portfolio {
+  width: 100%;
+  min-height: 1400px;
+  padding-top: 100px; }
+  .portfolio .content-box {
+    max-width: 530px; }
+  .portfolio h2 {
+    margin-bottom: 52px; }
+  .portfolio .description {
+    margin-top: 30px;
+    line-height: 22px; }
+  .portfolio .grid-expertise {
+    max-width: 400px; }
+  .portfolio .margin-top {
+    margin-top: 30px; }
+  .portfolio .first-header-margin {
+    margin-top: 40px; }
+
 @media only screen and (max-width: 930px) {
   .logo {
     margin: 10px 0 0 10px; }
