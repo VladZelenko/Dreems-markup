@@ -17,3 +17,17 @@
   transition: ease-in-out .7s;
   text-decoration: none;
 }
+
+.form-btn {
+  width: 187px;
+  margin-top: 21px;
+  background-color: #35c2f8;
+  border-radius: 35px;
+  border: none;
+  color: #FFF;
+  font: 400 16px/60px 'Montserrat', sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.7);
+  cursor: pointer;
+}
