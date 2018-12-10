@@ -1,0 +1,19 @@
+
+.expertise-btn {
+  display: block;
+  width: 169px;
+  margin-top: 49px;
+  background-color: #ffffff;
+  border-radius: 30px;
+  color: #222;
+  font: 700 16px/61px 'Montserrat', sans-serif;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.7);
+  text-transform: uppercase;
+  text-align: center; 
+}
+
+.btn-hover:hover {
+  background-color: #35C2F8;
+  transition: ease-in-out .7s;
+  text-decoration: none;
+}
