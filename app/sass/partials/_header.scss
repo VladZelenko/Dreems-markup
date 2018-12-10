@@ -1,0 +1,33 @@
+
+.close-btn, .open-btn {
+  display: none;
+}
+
+.header-nav {
+  max-width: 1024px;
+  min-height: 100px;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.overlay__content {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.overlay__content li a {
+  padding: 5px 20px;
+  color: #CCC;
+  font: 400 14px "Open Sans", sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.overlay__content li a:hover {
+  color: #35C2F8;
+  transition: ease-in-out .7s;
+  text-decoration: none;
+}

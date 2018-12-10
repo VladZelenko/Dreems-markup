@@ -1,0 +1,20 @@
+.core-services {
+  width: 100%;
+  min-height: 535px;
+  text-align: center;
+  padding: 100px 0;
+
+  .content-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .item {
+    width: 282px;
+    color: #888;
+  }
+
+  img { margin-top: 79px; }
+  h3 { margin: 39px 0 18px; }
+  p { line-height: 22px; }
+}

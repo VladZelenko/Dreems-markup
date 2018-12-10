@@ -1,0 +1,21 @@
+{
+  "name": "dreems-markup",
+  "description": "",
+  "main": "gulpfile.js",
+  "authors": [
+    "Vlad6555 <Vlad6555@ukr.net>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/VladZelenko/Dreems-markup",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/libs/",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "jquery": "^3.3.1"
+  }
+}

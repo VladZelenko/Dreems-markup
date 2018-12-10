@@ -1,0 +1,7 @@
+.underline::after {
+  content: "";
+  display: block;
+  width: 111px;
+  height: 2px;
+  margin: 50px auto;
+  background-color: #35C2F8; }

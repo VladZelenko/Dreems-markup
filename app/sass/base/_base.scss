@@ -1,0 +1,29 @@
+*, *:after, *:before {box-sizing: border-box;}
+li {list-style: none;}
+a {text-decoration: none;}
+a:hover {text-decoration: none;}
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+body {
+	color: #777;
+	font: 400 14px "Noto Sans", sans-serif;
+}
+.container {
+	max-width: 1024px;
+	margin: 0 auto;
+}
+
+.primary-title {
+	color: #222;
+	font: 700 40px 'Montserrat', sans-serif;
+	text-transform: uppercase;
+}
+
+h3.title {
+	color: #222;
+	font: 400 16px 'Montserrat', sans-serif;
+	text-transform: uppercase;
+}
