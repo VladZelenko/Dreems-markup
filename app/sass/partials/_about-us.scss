@@ -2,6 +2,26 @@
   width: 100%;
   min-height: 1631px;
   padding: 102px 0 111px;
+  text-align: center;
   
   h2 { text-align: center; }
+
+  .content {
+    width: 303px;
+    text-align: right;
+  }
+
+  .content-box {
+    display: flex;
+    flex-flow: row wrap;
+
+    width: 517px;
+    margin: 92px auto;
+
+  }
+
+  .container {
+    // display: flex;
+    // flex-flow: column nowrap;
+  }
 }

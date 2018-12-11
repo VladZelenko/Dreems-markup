@@ -1,5 +1,29 @@
+@media (max-width: 1050px) {
+  .others-expertise {
+    padding: 50px 20px;
+    background: #f7f7f7;
+  }
 
-@media only screen and (max-width: 930px) {
+  .grid-expertise, .content-box {
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  .awesome-team, .footer { padding: 50px 20px; }
+
+  .footer .container {
+    flex-flow: column nowrap;
+    align-items: center;
+  }
+
+  .contact-form { margin-top: 30px;}
+  .form-btn {
+    margin: 21px auto;
+    text-align: center;
+  }
+}
+
+@media (max-width: 930px) {
 
   .logo { margin: 10px 0 0 10px; }
 
@@ -47,17 +71,16 @@
     text-align: center;
   }
 
-  .overlay__content li {
-    padding: 10px 0;
-  }
+  .overlay__content li { padding: 10px 0; }
 
   .open-btn {
     display: block;
     margin-right: 10px;
     width: 35px;
     height: 30px;
-    border: 1px solid #CCC;
+    background: none;
     border-radius: 5px;
+    border: none;
   }
 
   .line {
@@ -65,8 +88,42 @@
     margin: 5px auto;
     width: 20px;
     height: 3px;
-    background: #000;
+    background: #FFF;
   }
 
   .intro { padding: 20px; }
+
 }
+
+
+@media (max-width: 850px) {
+  .core-services  .flex-grid {
+    flex-flow: column nowrap;
+    align-items: center;
+  }
+
+  .others-expertise, .portfolio { text-align: center;}
+  .expertise-btn { margin: 49px auto; }
+  .grid-expertise .icon { margin-bottom: 30px;}
+  .grid-expertise, .grid-expertise .margin-top {
+    flex-flow: column nowrap;
+    align-items: center;
+  }
+
+  .awesome-team .container {
+    flex-flow: column nowrap;
+    align-items: center;
+  }
+
+}
+
+@media (max-width: 550px) {
+  .portfolio-container {
+    flex-flow: column nowrap;
+    .item-portfolio { width: 100%;}
+  }
+
+  .footer .container { text-align: center;}
+  .contact-info { text-align: left;}
+}
+

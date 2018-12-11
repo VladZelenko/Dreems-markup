@@ -4,26 +4,21 @@
   padding: 100px 0 88px;
   background: url('../../img/expertize.png') center center no-repeat;
   background-size: cover;
-
-  .content-box { width: 752px; }
+  .content-box { max-width: 752px; }
   .title { margin-bottom: 36px; }
   p { font-size: 16px; }
-  
-
 }
 
 .grid-expertise {
     display: flex;
     flex-wrap: wrap;
+    .margin-top { margin-top: 58px; }
+    .expertise-content { max-width: 314px; }
+    .title { margin-bottom: 13px; }
+    p { line-height: 22px; }
 
-  .margin-top { margin-top: 58px; }
-  
-  .icon {
-    width: 46px;
-    font-size: 30px;
-  }
-
-  .expertise-content { width: 314px; }
-  .title { margin-bottom: 13px; }
-  p { line-height: 22px; }
+    .icon {
+      width: 46px;
+      font-size: 30px;
+    }
 }
