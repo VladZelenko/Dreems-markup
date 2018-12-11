@@ -6,10 +6,37 @@
   padding-top: 100px;
 
   .col-lg-6 { max-width: 460px; }
+  
   .title { 
     margin-bottom: 30px;
     color: #FFF; 
   }
 
-  p { line-height: 18px;}
+  p { line-height: 18px; }
+  a { color: #FFF; }
+  i { font-size: 20px; width: 30px;}
+
+  li {
+    margin-top: 45px;
+    width: 210px;
+  }
+
+  .copyright {
+    display: block;
+    margin: 63px 0 32px;
+    width: 100%;
+    text-align: center;
+
+    &::before {
+      content: '';
+      display: block;
+      max-width: 100%;
+      height: 2px;
+      margin-bottom: 32px;
+      background-color: #ffffff;
+    }
+  }
+
+
+
 }
